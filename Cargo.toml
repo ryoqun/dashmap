@@ -20,7 +20,7 @@ raw-api = []
 num_cpus = "1.13.0"
 serde = { version = "1.0.118", optional = true, features = ["derive"] }
 cfg-if = "1.0.0"
-rayon = { git = "https://github.com/ryoqun/rayon", rev = "48efe667f1a81167a1794369c7eee40b85192d8e", optional = true }
+rayon = { git = "https://github.com/ryoqun/rayon", rev = "3e1dd3601186edf94bf73072d74870c7148e98ec", optional = true }
 
 [package.metadata.docs.rs]
 features = ["rayon", "raw-api", "serde"]
